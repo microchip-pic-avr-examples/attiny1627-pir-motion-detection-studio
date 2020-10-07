@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.attiny1627-pir-motion-detection-studio",
-        "version": "1.0.2",
+        "version": "1.0.1",
         "displayName": "Low-Power, Cost-Efficient PIR Motion Detection Using the tinyAVR® 2 Family",
         "projectName": "attiny1627-pir-motion-detection-studio",
         "shortDescription": "This is an Atmel Studio 7 bare metal example from the application note AN3641. It shows PIR motion detection using the 12-bit ADC with PGA on the ATtiny1627.",
