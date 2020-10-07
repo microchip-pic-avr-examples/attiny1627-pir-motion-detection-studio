@@ -7,7 +7,7 @@
         "version": "1.0.0 ",
         "displayName": "Low-Power, Cost-Efficient PIR Motion Detection Using the tinyAVR® 2 Family",
         "projectName": "attiny1627-pir-motion-detection-studio",
-        "shortDescription": "This Atmel Studio 7 bare metal example in Low-Power, Cost-Efficient PIR Motion Detection Using the tinyAVR® 2 Family (AN3641), shows how to use the 12-bit differential ADC with the PGA in the tinyAVR 2 Family of microcontrollers, and how to collect measurements using a Passive InfraRed (PIR) sensor while keeping the current consumption at a minimum.",
+        "shortDescription": "This is an Atmel Studio 7 bare metal example from the application note AN3641. It shows PIR motion detection using the 12-bit ADC with PGA on the ATtiny1627.",
         "ide": {
             "name": "Studio",
             "semverRange": ">=7.0.1645"
@@ -54,9 +54,6 @@
                "Peripherals", "RTC"
             ],
             [
-               "Peripherals", "PIT"
-            ],
-            [
                "Peripherals", "USART"
             ],            			
             [
@@ -81,14 +78,14 @@
             "Oversampling",
             "PGA",
             "Moving Average",
-            "Periodic Interrupt timer",
+            "Periodic Interrupt Timer",
+			"PIT",
 			"Standby",
             "PIR",
             "Filter",
-            "Event system",
-            "Motion detection",
+            "Event System",
+            "Motion Detection",
             "pir-motion-detection",
-			"Tiny2",
 			"tinyAVR-2",
 			"Low-Power"		
         ],
