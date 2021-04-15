@@ -4,20 +4,20 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.attiny1627-pir-motion-detection-studio",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "Low-Power, Cost-Efficient PIR Motion Detection Using the tinyAVR® 2 Family",
         "projectName": "attiny1627-pir-motion-detection-studio",
         "shortDescription": "This is an Atmel Studio 7 bare metal example from the application note AN3641. It shows PIR motion detection using the 12-bit ADC with PGA on the ATtiny1627.",
         "ide": {
-            "name": "Studio",
+            "name": "STUDIO",
             "semverRange": ">=7.0.1645"
         },
         "compiler": [
-			{
-				"name": "AVR-GCC",
-				"semverRange": "^5.4.0"
-			}
-		],
+            {
+                "name": "AVR GCC",
+                "semverRange": "^5.4.0"
+            }
+        ],
         "dfp": {
             "name": "ATtiny_DFP",
             "semverRange": "^1.6.326"
@@ -39,38 +39,53 @@
         "author": "Microchip",
         "subcategories": [
             [
-               "Peripherals", "ADC"
-            ],            
-            [
-               "Peripherals", "SLPCTRL"
+                "Peripherals",
+                "ADC"
             ],
             [
-               "Peripherals", "EVSYS"
+                "Peripherals",
+                "SLPCTRL"
             ],
             [
-               "Peripherals", "CLKCTRL"
+                "Peripherals",
+                "EVSYS"
             ],
             [
-               "Peripherals", "RTC"
+                "Peripherals",
+                "CLKCTRL"
             ],
             [
-               "Peripherals", "USART"
-            ],            			
-            [
-               "Development Kit", "ATtiny1627 Curiosity Nano"
+                "Peripherals",
+                "RTC"
             ],
             [
-               "Development Kit", "Curiosity Nano Base for Click boards"
+                "Peripherals",
+                "USART"
             ],
             [
-               "Development Kit", "MIKROE-3339 Click board"
+                "Development Kit",
+                "ATtiny1627 Curiosity Nano"
             ],
-			[
-			   "Supporting Tools", "Data Visualizer"
-			]
-		],
+            [
+                "Development Kit",
+                "Curiosity Nano Base for Click boards"
+            ],
+            [
+                "Development Kit",
+                "MIKROE-3339 Click board"
+            ],
+            [
+                "Supporting Tools",
+                "Data Visualizer"
+            ]
+        ],
         "peripherals": [
-            "ADC","SLPCTRL","EVSYS","CLKCTRL","RTC","USART"
+            "ADC",
+            "SLPCTRL",
+            "EVSYS",
+            "CLKCTRL",
+            "RTC",
+            "USART"
         ],
         "keywords": [
             "Differential",
@@ -79,26 +94,26 @@
             "PGA",
             "Moving Average",
             "Periodic Interrupt Timer",
-			"PIT",
-			"Standby",
+            "PIT",
+            "Standby",
             "PIR",
             "Filter",
             "Event System",
             "Motion Detection",
             "pir-motion-detection",
-			"tinyAVR-2",
-			"Low-Power"		
+            "tinyAVR-2",
+            "Low-Power"
         ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./README.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }
